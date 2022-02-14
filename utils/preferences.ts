@@ -5,6 +5,7 @@ interface Preferences {
   teamId: string;
   spaceId: string;
   defaultListId: string;
+  defaultTags:string[];
 }
 
 const preferences: Preferences = getPreferenceValues();
